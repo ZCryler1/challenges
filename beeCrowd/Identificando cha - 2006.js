@@ -29,8 +29,7 @@ let RespostasArray = Respostas.split(' ').map(Number)
 
 // Contando quantas respostas estão corretas
 let acertos = RespostasArray.filter(resposta => resposta == Number(TipoDeCha)).length
-// .filter(item => item === TipoDeCha).length
-// .filter(resposta para cada integrante => reposta == (igual ao tipo de chá) 
+// .filter(resposta => reposta == (igual ao numero do tipo de chá). tamanho ( se tiver 4 respostas corretas imprime 4)
 // Imprimindo o número de acertos
 console.log(acertos)
 
